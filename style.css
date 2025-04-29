@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    width: 95%;
+    height: 120px;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007bff;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#commentSection {
+    margin-top: 20px;
+}
+
+#commentList {
+    list-style: none;
+    padding: 0;
+}
+
+#commentList li {
+    background: rgba(128, 128, 128, 0.285);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 95%;
+}
